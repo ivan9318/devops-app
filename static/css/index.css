@@ -1,0 +1,49 @@
+#cabezas{
+    background-color: #ffffff;
+    font-size: 22px;
+  padding: 0.5rem 3rem; /* top/bottom 8px, left/right 16px */
+  font-weight: bold;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+#navbar-me{
+    text-decoration: none;
+    color: black;
+}
+
+.info-head {
+  padding: .5rem 5.6rem;
+  width: 100%;
+  height: 300px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  font-weight: bold;
+  text-align: center;        /* Centra el texto dentro del <p> */
+}
+.body_base{
+    width: 100%;
+    height: 100%;
+}
+.card-text{
+  text-align: center;
+}
+
+/* Columnas  de sysadmin */
+
+.cards{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+}
+
+#text-card{
+  height: 100%;
+  font-weight: bold;
+}
