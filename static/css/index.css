@@ -13,18 +13,62 @@
     color: black;
 }
 
-.info-head{
-padding: .5rem 5.6rem;
-    width: 100%;
-    height: 300px;
-    font-size: 50px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-weight: bold;   
+.info-head {
+  padding: .5rem 5.6rem;
+  width: 100%;
+  height: 300px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;   /* Centra horizontalmente */
+  align-items: center;       /* Centra verticalmente */
+  font-weight: bold;
+  text-align: center;        /* Centra el texto dentro del <p> */
 }
-
 .body_base{
     width: 100%;
     height: 100%;
+}
+.card-text{
+  text-align: center;
+}
+
+/* Columnas  de sysadmin */
+
+.cards{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 450px;
+  justify-content: center;
+}
+
+#text-card{
+  height: 100%;
+  font-weight: bold;
+}
+
+#titulo-card{
+  text-align: center;
+  font-size: 35px;
+}
+
+#tecnologias_title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 35px;
+  font-size: 70px;
+}
+
+#card-linux{
+  width: 450px;
+  height: 550px;
+  left: 200px;
+  top: 50px;
+  border: none;
+  border-radius: 100px;
 }
