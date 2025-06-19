@@ -52,3 +52,23 @@
   text-align: center;
   font-size: 35px;
 }
+
+#tecnologias_title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  padding: 35px;
+  font-size: 70px;
+}
+
+#card-linux{
+  width: 450px;
+  height: 550px;
+  left: 200px;
+  top: 50px;
+  border: none;
+  border-radius: 100px;
+}
