@@ -39,7 +39,7 @@
   align-items: center;
   align-content: center;
   width: 100%;
-  height: 450px;
+  height: 100%;
   justify-content: center;
 }
 
@@ -52,15 +52,18 @@
   text-align: center;
   font-size: 35px;
 }
-
+.tecnologias{
+  width: 100%;
+  height: 1500px;
+}
 #tecnologias_title{
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 25%;
-  padding: 35px;
+  height: 10%;
+  padding: 20px;
   font-size: 70px;
 }
 
@@ -69,6 +72,24 @@
   height: 550px;
   left: 200px;
   top: 50px;
+  border: none;
+  border-radius: 100px;
+}
+
+#card-docker{
+  width: 450px;
+  height: 550px;
+  bottom: 300px;
+  left: 800px;
+  border: black;
+  border-radius: 100px;
+}
+
+#card-azure{
+   width: 450px;
+  height: 550px;
+  bottom: 400px;
+  left: 200px;
   border: none;
   border-radius: 100px;
 }
